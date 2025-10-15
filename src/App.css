@@ -1,31 +1,3 @@
-.send-button{
-  background-color: rgb(25, 135, 84);
-  color: white;
-  padding: 12px 20px;
-  margin-left: 10px;
-  border: none;
-  border-radius: 10px;
-  font-size: 15px;
-  cursor: pointer;
-}
-
-.input-text{
-  padding: 12px 20px;
-  border: 1px solid rgb(25, 135, 84);
-  border-radius: 10px;
-  font-size: 15px;
-  flex-grow: 1;
-}
-
-.chat-input-container{
-  display: flex;
-  padding-top:20px
-}
-
-.chat-message-profile{
-  width: 45px;
-}
-
 .app-container{
   max-width: 600px;
   margin-left: auto;
@@ -37,28 +9,3 @@
   padding-bottom: 20px;
 }
 
-.user-message{
-  display: flex;
-  justify-content: flex-end;
-  align-items: start;
-}
-
-.robot-message{
-  display: flex;
-  justify-content: flex-start;
-  align-items: start;
-}
-.chat-message-text{
-  background-color: rgb(238, 238, 238);
-  padding: 15px 20px;
-  border-radius: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  max-width: 60%;
-}
-.chat-messages-container{
-  overflow: scroll;
-  padding: 20px;
-  scrollbar-width: none;
-}
